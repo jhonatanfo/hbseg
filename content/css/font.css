@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'TempusSansITC';
+  src: url('TempusSansITC.svg#TempusSansITC') format('svg'),
+       url('TempusSansITC.ttf') format('truetype'),
+       url('TempusSansITC.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tempus-sans-itc-2';
+  src: url('tempus-sans-itc-2.eot');
+  src: url('tempus-sans-itc-2.eot?#iefix') format('embedded-opentype'),
+       url('tempus-sans-itc-2.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

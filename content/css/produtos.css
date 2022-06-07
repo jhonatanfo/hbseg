@@ -1,0 +1,562 @@
+.box-produto,
+.box-produto-02 {
+    height: 300px !important;
+    background: url(../img/bg-produtos.jpg);
+    background-size: cover;
+    /* width: 6% !important; */
+    margin: 47px 16px;
+    border-radius: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    -webkit-box-shadow: 0px 21px 19px -4px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 21px 19px -4px rgba(0, 0, 0, 0.28);
+    box-shadow: 0px 21px 19px -4px rgba(0, 0, 0, 0.28);
+}
+
+.box-produto h3,
+.box-produto-02 h3 {
+    text-transform: uppercase;
+    margin-top: 23px;
+    height: 41px;
+    align-items: center;
+    display: grid;
+    font-family: 'Capture it';
+    font-size: 18px;
+    color: white;
+    text-shadow: 0px 6px 0 rgb(0 0 0 / 50%);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.box-produto img,
+.box-produto-02 img {
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+.box-produto button,
+.box-produto-02 button {
+    font-family: 'Capture it';
+    font-size: 13px;
+    color: white;
+    background: url(../img/icon-button.png);
+    width: 166px;
+    height: 47px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    background-size: 100%;
+}
+
+.box-produto.ativo,
+.box-produto-02.ativo {
+    background: url(../img/bg-produtos-hover.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1) !important;
+    -webkit-transform: scale(1.1) !important;
+    -o-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+}
+
+.box-produto.ativo h3,
+.box-produto-02.ativo h3 {
+    color: #FFF
+}
+
+.box-produto.ativo i,
+.box-produto-02.ativo i {
+    background-position-y: -150px;
+}
+
+.box-produto i,
+.box-produto-02 i {
+    float: left;
+    width: 100%;
+    height: 89px;
+    margin: 25px 0;
+}
+
+.produto-patrimonial {
+    background: url(../img/produto-seguro-patrimonial.png) no-repeat center top;
+}
+
+.produto-seguro-auto {
+    background: url(../img/produto-seguro-auto.png) no-repeat center top;
+}
+
+.produto-seguro-moto {
+    background: url(../img/produto-seguro-moto.png) no-repeat center top;
+}
+
+.produto-pet {
+    background: url(../img/produto-pet.png) no-repeat center top;
+}
+
+.produto-estagiario {
+    background: url(../img/produto-seguro-estagiario.png) no-repeat center top;
+}
+
+.produto-motofretista {
+    background: url(../img/produto-seguro-motofretista.png) no-repeat center top;
+}
+
+.produto-seguro-embarcacoes {
+    background: url(../img/produto-seguro-embarcacoes.png) no-repeat center top;
+}
+
+.produto-cancer-infantil {
+    background: url(../img/produto-cancer-infantil.png) no-repeat center top;
+}
+
+.produto-seguro-aeronaves {
+    background: url(../img/produto-seguro-aeronaves.png) no-repeat center top;
+}
+
+.produto-responsabilidade-civil {
+    background: url(../img/produto-responsabilidade-civil.png) no-repeat center top;
+}
+
+.produto-risco-engenharia {
+    background: url(../img/produto-risco-engenharia.png) no-repeat center top;
+}
+
+.produto-seguro-residencial {
+    background: url(../img/produto-seguro-residencial.png) no-repeat center top;
+}
+
+.produto-seguro-condominio {
+    background: url(../img/produto-seguro-condominio.png) no-repeat center top;
+}
+
+.produto-plano-saude {
+    background: url(../img/produto-plano-saude.png) no-repeat center top;
+}
+
+.produto-seguro-viagem {
+    background: url(../img/produto-seguro-viagem.png) no-repeat center top;
+}
+
+.produto-plano-odontologico {
+    background: url(../img/produto-plano-odontologico.png) no-repeat center top;
+}
+
+.produto-fianca-locaticia {
+    background: url(../img/produto-fianca-locaticia.png) no-repeat center top;
+}
+
+.produto-garantia-aluguel {
+    background: url(../img/produto-garantia-aluguel.png) no-repeat center top;
+}
+
+.produto-equipamentos-portateis {
+    background: url(../img/produto-equipamentos-portateis.png) no-repeat center top;
+}
+
+.produto-seguro-garantia {
+    background: url(../img/produto-seguro-garantia.png) no-repeat center top;
+}
+
+.produto-acidentes-pessoais {
+    background: url(../img/produto-acidentes-pessoais.png) no-repeat center top;
+}
+
+.produto-seguro-vida {
+    background: url(../img/produto-seguro-vida.png) no-repeat center top;
+}
+
+.produto-seguro-transportes {
+    background: url(../img/produto-seguro-transportes.png) no-repeat center top;
+}
+
+.produto-consorcios {
+    background: url(../img/produto-consorcios.png) no-repeat center top;
+}
+
+.produto-previdencia-privada {
+    background: url(../img/produto-previdencia-privada.png) no-repeat center top;
+}
+
+.produto-outros {
+    background: url(../img/produto-outros.png) no-repeat center top;
+}
+
+.borda-produto {
+    border-right: 5px solid #c1bfbf;
+    padding: 243px 0px;
+    top: 321px;
+    border-radius: 31px;
+    position: relative;
+}
+
+.produtos-texto {
+    /* padding-left: 70px; */
+    padding-top: 30px;
+}
+
+.produtos-texto h3 {
+    font-family: 'Capture it';
+    font-size: 45px;
+    color: white;
+    text-shadow: 0px 6px 0 rgb(0 0 0 / 50%);
+    text-align: center;
+}
+
+.produtos-texto p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Tempus Sans ITC';
+}
+
+.produtos-texto a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0 !important;
+    color: #353190;
+}
+
+.produtos-texto a:hover {
+    color: #FFF;
+}
+
+.produto-box {
+    display: none;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.produto-box.ativo {
+    display: block;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.produto-box-02 {
+    display: none;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.produto-box-02.ativo {
+    display: block;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.preco {
+    width: 302px;
+    margin: 0 auto;
+}
+
+.preco .preco-01 {
+    font-family: 'Tahoma';
+    font-weight: 900;
+    font-size: 23px;
+    color: #ff9800;
+    text-transform: uppercase;
+    position: absolute;
+    margin: 4px 0 0 0;
+    display: block;
+}
+
+.preco .preco-02 {
+    font-family: 'Tahoma';
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+}
+
+.preco .preco-03 {
+    font-family: 'Tahoma';
+    font-size: 59px;
+    font-weight: 900;
+    color: #ff9800;
+    text-transform: uppercase;
+    margin: 0 0 0 18px;
+}
+
+.preco .preco-04 {
+    font-family: 'Tahoma';
+    font-size: 59px;
+    font-weight: 900;
+    color: #ff9800;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.produto-button {
+    font-family: 'Capture it';
+    font-size: 20px;
+    color: white !important;
+    background: url(../img/icon-button.png);
+    width: 226px;
+    height: 64px;
+    border: none;
+    margin: 33px 0 0 161px!important;
+    display: block;
+    text-align: center;
+    padding: 0;
+    line-height: 61px;
+}
+
+.produto-button:before {
+    content: "";
+    background: url(../img/icon-arrow-left.png);
+    width: 51px;
+    height: 27px;
+    position: absolute;
+    margin: 14px 0 0 205px;
+}
+
+.produto-button:after {
+    content: "";
+    background: url(../img/icon-arrow-right.png);
+    width: 51px;
+    height: 27px;
+    position: absolute;
+    margin: 22px 0 0 -251px;
+}
+
+.produto-button:hover:before {
+    animation: anima-button-before 1000ms ease infinite;
+}
+
+.produto-button:hover:after {
+    animation: anima-button-after 1000ms ease infinite;
+}
+
+@media(min-width: 1200px) and (max-width: 3000px) {
+    .borda-produto {
+        padding: 267px 0px;
+    }
+    .produtos-texto {
+        /* padding-left: 50px; */
+    }
+    .produtos-texto p {
+        font-size: 23px;
+        margin-bottom: 19px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .borda-produto {
+        padding: 228px 0px;
+        top: 264px;
+    }
+    .produtos-texto {
+        /* padding-left: 30px; */
+    }
+    .produtos-texto p {
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+    .produto-button {
+        margin: 33px 0 0 102px!important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .borda-produto {
+        top: 240px;
+    }
+    .produtos-texto {
+        padding-left: 0px;
+        padding-top: 17px;
+    }
+    .produtos-texto p {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    /***/
+    .titulo-secao-hamburguers p {
+        font-size: 40px;
+    }
+    .titulo-secao-hamburguers p span {
+        margin-top: -43px;
+    }
+    .produtos-texto h3 {
+        font-size: 30px;
+    }
+    .preco .preco-01 {
+        font-size: 15px;
+        margin: 5px 0 0 0;
+    }
+    .preco .preco-02 {
+        font-size: 18px;
+    }
+    .preco .preco-03 {
+        font-size: 39px;
+        margin: 0 0 0 9px;
+    }
+    .preco {
+        width: 209px;
+    }
+    .produto-button {
+        font-size: 13px;
+        width: 144px;
+        height: 41px;
+        background-size: 100%;
+        margin: 19px 0 0 92px !important;
+        line-height: 42px;
+    }
+    .produto-button:after {
+        width: 36px;
+        height: 19px;
+        margin: 13px 0 0 -158px;
+        background-size: 100%;
+    }
+    .produto-button:before {
+        width: 36px;
+        height: 19px;
+        margin: 12px 0 0 122px;
+        background-size: 100%;
+    }
+    .produto-box {
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 1031px) and (max-width: 1380px) {
+    .produtos .slick-dots,
+    .produtos-02 .slick-dots {
+        display: none !important
+    }
+    .produtos .slick-prev,
+    .produtos .slick-next,
+    .produtos-02 .slick-prev,
+    .produtos-02 .slick-next {
+        top: 500px;
+    }
+    .produtos .slick-next,
+    .produtos-02 .slick-next {
+        right: -37px !important;
+        margin: 0 auto;
+        height: 40px;
+        top: 197px !important;
+        width: 67px;
+    }
+    .produtos .slick-prev,
+    .produtos-02 .slick-prev {
+        left: -32px !important;
+        margin: 0 auto;
+        top: 206px !important;
+        width: 69px;
+        height: 40px;
+    }
+    .produtos .slick-next:before,
+    .produtos .slick-prev:before,
+    .produtos-02 .slick-next:before,
+    .produtos-02 .slick-prev:before {
+        width: 40px !important;
+        height: 40px !important;
+        background-size: 37px !important;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 1030px) {
+    .produtos .slick-dots,
+    .produtos-02 .slick-dots {
+        display: none !important
+    }
+    .produtos .slick-prev,
+    .produtos .slick-next,
+    .produtos-02 .slick-prev,
+    .produtos-02 .slick-next {
+        top: 500px;
+    }
+    .produtos .slick-next,
+    .produtos-02 .slick-next {
+        left: 0px !important;
+        right: -50px !important;
+        margin: 0 auto;
+        top: 415px !important;
+        width: 45px;
+    }
+    .produtos .slick-prev,
+    .produtos-02 .slick-prev {
+        left: -50px !important;
+        right: 0px !important;
+        margin: 0 auto;
+        top: 415px !important;
+        width: 45px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        background-size: 100% !important;
+        width: 45px !important;
+        height: 45px !important;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 767px) {
+    .produtos .slick-dots,
+    .produtos-02 .slick-dots {
+        display: none !important
+    }
+    .produtos-texto p {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    .produtos-texto {
+        padding: 0px;
+    }
+    .produtos-texto h3 {
+        text-align: center;
+    }
+    .produtos-texto p {
+        text-align: center;
+    }
+    /***/
+    .titulo-secao-hamburguers p {
+        font-size: 26px;
+    }
+    .titulo-secao-hamburguers p span {
+        margin-top: -43px;
+        font-size: 46px;
+    }
+    .produtos-texto h3 {
+        font-size: 30px;
+    }
+    .preco .preco-01 {
+        font-size: 15px;
+        margin: 5px 0 0 0;
+    }
+    .preco .preco-02 {
+        font-size: 18px;
+    }
+    .preco .preco-03 {
+        font-size: 39px;
+        margin: 0 0 0 9px;
+    }
+    .preco {
+        width: 209px;
+    }
+    .produto-button {
+        font-size: 13px;
+        width: 144px;
+        height: 41px;
+        background-size: 100%;
+        margin: 0 auto !important;
+        line-height: 42px;
+        margin-top: 30px !important;
+    }
+    .produto-button:after {
+        display: none;
+    }
+    .produto-button:before {
+        display: none;
+    }
+    .produto-box {
+        margin-top: 10px;
+    }
+}
