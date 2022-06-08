@@ -25,7 +25,7 @@
     font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 52%;
+    top: 110%;
     display: block;
     padding: 0;
     -webkit-transform: translate(0, -50%);
@@ -41,7 +41,7 @@
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus {
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .slick-prev:hover:before,
@@ -57,7 +57,7 @@
 }
 
 .slick-prev {
-    left: 5%;
+    left: 2%;
 }
 
 [dir='rtl'] .slick-prev {
@@ -66,7 +66,7 @@
 }
 
 .slick-next {
-    right: 5%;
+    left: 8%;
 }
 
 .produtos .slick-prev,
@@ -167,19 +167,27 @@
 }
 
 .slick-prev {
-    background: url(../img/icon-left-arrow-slider.png);
-    width: 120px;
-    height: 69px;
+    background: url(../img/arrow-left.jpg);
+    width: 43px;
+    height: 43px;
     float: left;
     z-index: 2;
 }
 
 .slick-next {
-    background: url(../img/icon-right-arrow-slider.png);
-    width: 118px;
-    height: 69px;
+    background: url(../img/arrow-right.jpg);
+    width: 43px;
+    height: 43px;
     float: right;
     z-index: 2;
+}
+
+.slick-prev:hover {
+    background: url(../img/arrow-left-hover.jpg);
+}
+
+.slick-next:hover {
+    background: url(../img/arrow-right-hover.jpg);
 }
 
 @media(min-width: 1200px) and (max-width: 1600px) {
