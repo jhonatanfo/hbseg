@@ -1,6 +1,5 @@
 $(document).on('ready', function() {
 
-
     $(".slick-depoimentos").slick({
         infinite: true,
         slidesToShow: 1,
@@ -8,54 +7,34 @@ $(document).on('ready', function() {
         dots: false,
         infinite: true,
         arrows: true,
-        adaptiveHeight: true,
-        responsive: [{
-            breakpoint: 1030,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-            }
-        }, {
-            breakpoint: 767,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-            }
-        }, {
-            breakpoint: 530,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            }
-        }]
+        adaptiveHeight: true
     });
-
 
 });
 
 $(document).ready(function() {
 
-    $(".navbar-toggle").click(function() {
-        $('body').toggleClass('remove-overflow');
-    });
-
     $(".navbar-nav li a").click(function() {
         $(".navbar-collapse.collapse").removeClass("in");
     });
 
-    $('.box-slide button[href^="#"], .bg-header-left a[href^="#"], .nav li a[href^="#"], footer ul li a[href^="#"]').on('click', function(e) {
+    $('.nav li a[href^="#"],.seta-top[href^="#"]').on('click', function(e) {
         e.preventDefault();
         var id = $(this).attr('href'),
             targetOffset = $(id).offset().top;
 
         $('html, body').animate({
-            scrollTop: targetOffset - 0
+            scrollTop: targetOffset - 105
         }, 500);
     });
 
 
+});
 
-
-
-
+$(document).on("scroll", function() {
+    if ($(document).scrollTop() > 105) { //QUANDO O SCROLL PASSAR DOS 100px DO TOPO
+        $(".navbar").removeClass("large").addClass("small"); //TROCA P CLASSE MENOR
+    } else {
+        $(".navbar").removeClass("small").addClass("large"); //VOLTA P MENU GRANDE ORIGINAL
+    }
 });

@@ -10,6 +10,7 @@ body {
 
 .navbar {
     margin-bottom: 0;
+    transition: 0.2s;
 }
 
 .navbar-default {
@@ -26,7 +27,8 @@ body {
     color: black;
     font-size: 18px;
     font-weight: 700;
-    padding: 42px 40px;
+    padding: 42px 0px;
+    margin: 0 40px;
 }
 
 .navbar-nav {
@@ -50,7 +52,9 @@ body {
 
 /***/
 
-.bg-banner-principal {}
+.bg-banner-principal {
+    margin-top: 105px;
+}
 
 .bg-banner-principal img {
     width: 100%;
@@ -396,7 +400,6 @@ footer ul li i.icon-localizacao {
     background: #EEEEEE;
 }
 
-
 .contato-form {
     background: #FFFFFF;
     box-shadow: 0px 0 25px 0px rgba(0, 0, 0, 0.11);
@@ -557,7 +560,8 @@ footer ul li i.icon-localizacao {
 
 
 /**/
-.banner-blog{
+
+.banner-blog {
     background-color: #0068d5ba;
     width: 100%;
     height: 235px;
@@ -593,7 +597,7 @@ footer ul li i.icon-localizacao {
     text-align: center;
     color: white;
     text-align: center;
-    padding: 96px  0;
+    padding: 96px 0;
     margin: 0;
 }
 
@@ -641,15 +645,12 @@ footer ul li i.icon-localizacao {
     margin-bottom: 19px;
 }
 
- 
-
 .box-blog-img img {
     border-radius: 25px 25px 0 0;
     width: 100%;
     height: 205px;
     object-fit: cover;
 }
-
 
 .box-blog-texto a {
     font-family: 'Montserrat';
@@ -674,6 +675,49 @@ footer ul li i.icon-localizacao {
 .bg-blog.interna .box-blog-img img {
     height: 300px;
 }
+
 .bg-blog.interna .box-blog-texto p {
     text-align: justify;
+}
+
+.box-texto-depoimentos-img {
+    width: 494px;
+    margin: auto;
+}
+
+.seta-top {
+    position: absolute;
+    right: 48px;
+    margin-top: 32px;
+}
+
+
+/***/
+
+.navbar.large {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar.small {
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    background: white;
+    top: 0;
+    right: 0;
+    -webkit-box-shadow: 0px 0px 19px rgb(50 50 50 / 8%);
+    -moz-box-shadow: 0px 0px 19px rgb(50 50 50 / 8%);
+    box-shadow: 0px 0px 19px rgb(50 50 50 / 8%);
+    border-radius: 0;
+}
+
+.navbar.small .logo {
+    width: 115px;
+}
+
+.navbar.small .nav li {
+    padding: 0;
 }

@@ -19,13 +19,18 @@
     <link href="content/dist/css/lightgallery.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
+    <!-- Animações -->
+    <link rel="stylesheet" href="content/dist/aos.css" />
+    <!-- /Animações -->
+
+
 </head>
 
 <body>
 
-    <header>
+    <header id="topo">
 
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default large" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -39,10 +44,10 @@
                 </a>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#icon-arrow-bottom-ancora">Serviços</a></li>
-                        <li><a href="#hamburguer">Sobre nós</a></li>
-                        <li><a href="#bebidas">Blog</a></li>
-                        <li><a href="#fotos">Contato</a></li>
+                        <li><a href="#secao-servicos">Serviços</a></li>
+                        <li><a href="#secao-sobre">Sobre nós</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,16 +55,17 @@
 
         <section class="bg-banner-principal container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <img src="content/img/banner.png">
                 </div>
-                <div class="col-md-6 banner-principal-texto">
+                <div class="col-xs-12 col-sm-6 col-md-6 banner-principal-texto">
                     <h1>Uma nova maneira<br><span>de você</span> fazer seguro</h1>
                 </div>
             </div>
         </section>
 
     </header>
+
 
     <section class="bg-tipo-servicos">
         <div class="container">
@@ -73,42 +79,42 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-xs-6 col-md-3">
                             <a href="" class="box-tipo-servicos">
                                 Auto
                             </a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-xs-6 col-md-3">
                             <a href="" class="box-tipo-servicos">
                                 Frota
                             </a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-xs-6 col-md-3">
                             <a href="" class="box-tipo-servicos">
                                 Bike
                             </a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-xs-6 col-md-3">
                             <a href="" class="box-tipo-servicos">
                                 Carta Verde
                             </a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-xs-6 col-md-3">
                             <a href="" class="box-tipo-servicos">
                                 Viagem
                             </a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-xs-6 col-md-3">
                             <a href="" class="box-tipo-servicos">
                                 Vida
                             </a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-xs-6 col-md-3">
                             <a href="" class="box-tipo-servicos">
                                 Saúde
                             </a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-xs-6 col-md-3">
                             <a href="" class="box-tipo-servicos">
                                 Odonto
                             </a>
@@ -120,122 +126,121 @@
         </div>
     </section>
 
-    <section class="bg-servicos">
+
+    <section class="bg-servicos" id="secao-servicos">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
+                <div class="col-xs-12 col-md-6 col-md-offset-3">
                     <h2>Conheça os nossos serviços</h2>
                     <p>Trabalhamos com os melhores seguros para qualquer que seja a sua necessidade</p>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-6 box-servicos-img">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-img">
                     <img src="content/img/servico-01.jpg">
                 </div>
-                <div class="col-md-6 box-servicos-texto">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-texto">
                     <h3>Seguro Automóvel</h3>
                     <p>Seguro Auto Individual Dirija sem dor de cabeça! Solicite sua cotação de seguro auto. Aceitamos veículos especiais (rebaixado , turbo e leilão).</p>
                     <a href="">Ver mais</a>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-6 box-servicos-texto invert">
+            <div class="row invert-row">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-texto invert">
                     <h3>Seguro de Vida</h3>
                     <p>Planos sob medida elaborados por Consultores especializados garantimos as melhores condições de acordo com suas necessidades. Trabalhamos com as melhores Seguradoras que atuam no mercado. Trazemos a tranquilidade que você, sua Família
                         e sua Empresa merecem.</p>
                     <a href="">Ver mais</a>
                 </div>
-                <div class="col-md-6 box-servicos-img invert">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-img invert">
                     <img src="content/img/servico-02.jpg">
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-6 box-servicos-img">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-img">
                     <img src="content/img/servico-03.jpg">
                 </div>
-                <div class="col-md-6 box-servicos-texto">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-texto">
                     <h3>Seguro Odontológico</h3>
                     <p>Planos Odontológicos que cabem no seu bolso e consultores especializados para encontrar a melhor oferta para o seu sorriso.</p>
                     <a href="">Ver mais</a>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-6 box-servicos-texto invert">
+            <div class="row invert-row">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-texto invert">
                     <h3>Seguro de saúde</h3>
                     <p>Os mais adequados e personalizados Planos de Saúde para Você, sua Família e empresa, elaborados em parceria junto as melhores Operadoras e Seguradoras do Mercado, além dos Consultores especializados e garantimos as melhores condições.</p>
                     <a href="">Ver mais</a>
                 </div>
-                <div class="col-md-6 box-servicos-img invert">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-img invert">
                     <img src="content/img/servico-04.jpg">
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-6 box-servicos-img">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-img">
                     <img src="content/img/servico-05.jpg">
                 </div>
-                <div class="col-md-6 box-servicos-texto">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-texto">
                     <h3>Seguro Viagem</h3>
                     <p>Viajar é bom, mas viajar com segurança e sem dor de cabeça é melhor ainda!</p>
                     <a href="">Ver mais</a>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-6 box-servicos-texto invert">
+            <div class="row invert-row">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-texto invert">
                     <h3>Seguro Residencial</h3>
                     <p>Trabalhamos com os melhores seguros para que sua residencia seja ela habitual ou de veraneio tenha a proteção ideal de acordo com suas necessidades.
                     </p>
                     <a href="">Ver mais</a>
                 </div>
-                <div class="col-md-6 box-servicos-img invert">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-img invert">
                     <img src="content/img/servico-06.jpg">
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-6 box-servicos-img">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-img">
                     <img src="content/img/servico-07.jpg">
                 </div>
-                <div class="col-md-6 box-servicos-texto">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-texto">
                     <h3>Seguro de Equipamentos Portatéis</h3>
                     <p>Oferecemos a segurança que você precisa para seus equipamentos como celular, tablet, smartphone e camera fotográfica, etc...</p>
                     <a href="">Ver mais</a>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-6 box-servicos-texto invert">
+            <div class="row invert-row">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-texto invert">
                     <h3>Seguro Pet</h3>
                     <p>Acreditamos que os animais de estimação fazem parte da família. Descubra tudo o que podemos fazer para cuidar da saúde seu pet.
                     </p>
                     <a href="">Ver mais</a>
                 </div>
-                <div class="col-md-6 box-servicos-img invert">
+                <div class="col-xs-12 col-sm-6 col-md-6 box-servicos-img invert">
                     <img src="content/img/servico-08.jpg">
                 </div>
             </div>
-
-
 
         </div>
 
         <a href="" class="btn-servicos">Conheça todos os nossos serviços</a>
     </section>
 
-    <section class="bg-sobre-nos">
+    <section class="bg-sobre-nos" id="secao-sobre">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <h2>Sobre nós</h2>
-                    <p>A <b>HBSeg</b> , trabalha de uma forma mais humana conseguindo unir a tecnologia com um atendimento personalizado de acordo com o perfil de cada cliente. Tudo isso é possível graças a uma equipe com uma ótima experiência e vivência
+                    <p>A <b>HBSeg</b>, trabalha de uma forma mais humana conseguindo unir a tecnologia com um atendimento personalizado de acordo com o perfil de cada cliente. Tudo isso é possível graças a uma equipe com uma ótima experiência e vivência
                         no mercado securitário, desta forma conseguimos qualidade no atendimento, preço justo e suporte no pós venda.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <img src="content/img/logo-sobre.png">
                 </div>
             </div>
@@ -252,7 +257,7 @@
         </div>
         <div class="container slick-depoimentos">
             <div class="row">
-                <div class="col-md-6 ">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="box-texto-depoimentos">
                         <i></i>
                         <p>Ótimo atendimento, me senti em boas mãos em todas as etapas !</p>
@@ -260,13 +265,13 @@
                         <small>user</small>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <img src="content/img/depoimentos.png" class="box-texto-depoimentos-img">
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-6 ">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="box-texto-depoimentos">
                         <i></i>
                         <p>Ótimo atendimento, me senti em boas mãos em todas as etapas !</p>
@@ -274,7 +279,7 @@
                         <small>user</small>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <img src="content/img/depoimentos.png" class="box-texto-depoimentos-img">
                 </div>
             </div>
@@ -294,10 +299,8 @@
                 <i class="icon-localizacao"></i> Rua Claudio Soares, nº72 conj.<br>1406, Pinheiros - SP
             </li>
         </ul>
+        <a href="#topo" class="seta-top"><img src="content/img/seta-top.png"></a>
     </footer>
-
-
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="content/js/bootstrap.min.js"></script>
@@ -308,17 +311,24 @@
     <script type="text/javascript" src="content/slick/slick-animation.js"></script>
     <!--/Slick script-->
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#lightgallery').lightGallery();
-        });
-    </script>
-
     <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
     <script src="content/dist/js/lightgallery-all.min.js"></script>
     <script src="content/dist/lib/jquery.mousewheel.min.js"></script>
 
+    <!-- Animações -->
+    <script src="content/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            disable: function() {
+                var maxWidth = 767;
+                return window.innerWidth < maxWidth;
+            }
+        });
+    </script>
+    <!-- /Animações -->
     <script src="content/js/padrao.js" type="text/javascript" charset="utf-8"></script>
+
 
 </body>
 
