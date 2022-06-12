@@ -26,6 +26,10 @@
     footer ul {
         padding: 130px 0 0 0;
     }
+    .contato-titulo h2 {
+        font-size: 20px;
+        padding: 64px 0 0 66px;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
@@ -239,6 +243,69 @@
     footer {
         border-bottom: 50px solid #000039;
     }
+    .rede-social-topo a i {
+        margin: 0 auto;
+    }
+    .rede-social-topo a {
+        width: 100%;
+        margin: 14px 0 !important;
+    }
+    .icon-facebook-topo {
+        background-image: url("../img/icon-facebook-white.png");
+    }
+    .icon-instagram-topo {
+        background-image: url("../img/icon-instagram-white.png");
+    }
 }
 
-@media(min-width: 0px) and (max-width: 991px) {}
+@media(min-width: 0px) and (max-width: 991px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .seta-top {
+        margin-top: 0;
+    }
+    .bg-blog h2 {
+        font-size: 24px;
+        padding: 55px 0;
+    }
+    .banner-blog {
+        height: 154px;
+        margin-bottom: 37px;
+    }
+    .banner-blog:after {
+        height: 154px;
+    }
+    .contato-titulo h2 {
+        font-size: 24px;
+        padding: 60px 0px;
+        text-align: center;
+    }
+    .contato-titulo,
+    .contato-telefone,
+    .contato-endereco {
+        border-radius: 15px;
+        text-align: center;
+    }
+    .contato-titulo {
+        padding: 0;
+    }
+    .contato-telefone,
+    .contato-endereco {
+        padding: 15px 0;
+    }
+    .contato-endereco {
+        margin-bottom: 20px;
+    }
+    .contato-form {
+        border-radius: 15px;
+        padding: 45px 25px;
+    }
+    .contato-form p {
+        text-align: center
+    }
+    #form-container .btn-form-enviar {
+        display: block;
+        margin: 0 auto;
+    }
+}

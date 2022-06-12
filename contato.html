@@ -19,13 +19,15 @@
     <link href="content/dist/css/lightgallery.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
+    <!-- Animações -->
+    <link rel="stylesheet" href="content/dist/aos.css" />
+    <!-- /Animações -->
 </head>
 
 <body>
 
-    <header>
-
-        <nav class="navbar navbar-default" role="navigation">
+    <header id="topo">
+        <nav class="navbar navbar-default large" role="navigation" data-aos="fade-up">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -34,40 +36,47 @@
                     <span class="icon-bar"></span>
                 </button>
                 </div>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="content/img/logo.png" class="logo">
                 </a>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#icon-arrow-bottom-ancora">Serviços</a></li>
-                        <li><a href="#hamburguer">Sobre nós</a></li>
-                        <li><a href="#bebidas">Blog</a></li>
-                        <li><a href="#fotos">Contato</a></li>
+                        <li><a href="#secao-servicos">Serviços</a></li>
+                        <li><a href="#secao-sobre">Sobre nós</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li class="rede-social-topo">
+                            <a href="https://www.facebook.com/hbsegcorretora" target="_blank">
+                                <i class="icon-facebook-topo"></i>
+                            </a>
+                        </li>
+                        <li class="rede-social-topo">
+                            <a href="https://www.instagram.com/hbsegcorretora" target="_blank">
+                                <i class="icon-instagram-topo"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-
-
     </header>
 
     <section class="bg-contato">
         <div class="container">
             <div class="row sem-espaco">
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 sem-espaco">
-                    <div class="contato-titulo aos-init aos-animate" data-aos="fade-down" data-aos-duration="500">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 sem-espaco">
+                    <div class="contato-titulo" data-aos="fade-down" data-aos-duration="500">
                         <h2>Entre em <b>contato</b></h2>
                     </div>
 
-                    <div class="contato-telefone aos-init aos-animate" data-aos="fade-down" data-aos-duration="800">
+                    <div class="contato-telefone" data-aos="fade-down" data-aos-duration="800">
                         <h2>Contato:</h2>
                         <p>(11) 5200-1395 | (11) 98860-5462</p>
                         <p><a href="mailto:Vendas@hbseg.com.br">Vendas@hbseg.com.br</a></p>
                     </div>
 
-                    <div class="contato-endereco aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="contato-endereco" data-aos="fade-down" data-aos-duration="1000">
                         <h2>Endereço:</h2>
                         <p>Rua Claudio Soares, nº72 conj.</p>
                         <p>1406, Pinheiros - SP</p>
@@ -75,7 +84,7 @@
 
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 contato-form sem-espaco">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 contato-form sem-espaco" data-aos="zoom-in">
                     <p>Preencha os campos abaixo, entraremos em contato em breve.</p>
                     <form id="form-container">
                         <div class="input-group"><input type="text" class="form-control" data-mask="" placeholder="Qual o seu nome?" id="nome"></div>
@@ -94,14 +103,14 @@
     <section class="bg-depoimentos">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" data-aos="zoom-in">
                     <h2>Depoimentos de <b>clientes</b></h2>
                 </div>
             </div>
         </div>
         <div class="container slick-depoimentos">
-            <div class="row">
-                <div class="col-md-6 ">
+            <div class="row" data-aos="zoom-in">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="box-texto-depoimentos">
                         <i></i>
                         <p>Ótimo atendimento, me senti em boas mãos em todas as etapas !</p>
@@ -109,13 +118,13 @@
                         <small>user</small>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <img src="content/img/depoimentos.png" class="box-texto-depoimentos-img">
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-6 ">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="box-texto-depoimentos">
                         <i></i>
                         <p>Ótimo atendimento, me senti em boas mãos em todas as etapas !</p>
@@ -123,7 +132,7 @@
                         <small>user</small>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <img src="content/img/depoimentos.png" class="box-texto-depoimentos-img">
                 </div>
             </div>
@@ -132,7 +141,17 @@
     </section>
 
     <footer>
-        <ul class="container">
+        <ul class="container" data-aos="zoom-in">
+            <li class="rede-social-rodape">
+                <a href="https://www.facebook.com/hbsegcorretora" target="_blank">
+                    <i class="icon-facebook-rodape"></i>
+                </a>
+            </li>
+            <li class="rede-social-rodape">
+                <a href="https://www.instagram.com/hbsegcorretora" target="_blank">
+                    <i class="icon-instagram-rodape"></i>
+                </a>
+            </li>
             <li>
                 <i class="icon-telefone"></i> (11) 5200-1395 | (11) 98860-5462
             </li>
@@ -142,11 +161,10 @@
             <li>
                 <i class="icon-localizacao"></i> Rua Claudio Soares, nº72 conj.<br>1406, Pinheiros - SP
             </li>
+
         </ul>
+        <a href="#topo" class="seta-top"><img src="content/img/seta-top.png"></a>
     </footer>
-
-
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="content/js/bootstrap.min.js"></script>
@@ -157,17 +175,24 @@
     <script type="text/javascript" src="content/slick/slick-animation.js"></script>
     <!--/Slick script-->
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#lightgallery').lightGallery();
-        });
-    </script>
-
     <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
     <script src="content/dist/js/lightgallery-all.min.js"></script>
     <script src="content/dist/lib/jquery.mousewheel.min.js"></script>
 
+    <!-- Animações -->
+    <script src="content/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            disable: function() {
+                var maxWidth = 767;
+                return window.innerWidth < maxWidth;
+            }
+        });
+    </script>
+    <!-- /Animações -->
     <script src="content/js/padrao.js" type="text/javascript" charset="utf-8"></script>
+
 
 </body>
 

@@ -17,7 +17,7 @@ body {
     border: none;
     left: 0;
     right: 0;
-    background: transparent;
+    background: white;
     z-index: 3;
     border-bottom: 1px solid #E5E5E5;
     height: 105px;
@@ -124,7 +124,7 @@ body {
 }
 
 .box-tipo-servicos:hover {
-    background: #3598ff;
+    background: #67adf5;
     color: #FFFFFF;
 }
 
@@ -170,6 +170,10 @@ body {
     height: 329px;
 }
 
+.box-servicos-texto a:hover {
+    background: #67adf5;
+}
+
 .box-servicos-texto h3 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -204,6 +208,7 @@ body {
     margin: 0 auto;
     display: block;
     width: 122px;
+    transition: 0.2s;
 }
 
 .box-servicos-img img {
@@ -238,6 +243,11 @@ body {
     margin: 0 auto;
     display: block;
     width: 395px;
+    transition: 0.2s;
+}
+
+.bg-servicos a.btn-servicos:hover {
+    background: #67adf5;
 }
 
 
@@ -397,6 +407,7 @@ footer ul li i.icon-localizacao {
 
 .bg-contato {
     padding: 65px 0 100px 0;
+    margin-top: 105px;
     background: #EEEEEE;
 }
 
@@ -562,18 +573,21 @@ footer ul li i.icon-localizacao {
 /**/
 
 .banner-blog {
-    background-color: #0068d5ba;
+    background: url("../img/bg-blog.jpg");
     width: 100%;
     height: 235px;
     margin-bottom: 75px;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
 }
 
 .banner-blog:after {
     content: '';
     width: 100%;
     height: 235px;
-    background: url("../img/bg-blog.jpg");
+    background-color: #0068d5ba;
     position: absolute;
     top: 0;
     left: 0;
@@ -581,11 +595,11 @@ footer ul li i.icon-localizacao {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    z-index: -1;
+    z-index: 1;
 }
 
 .bg-blog {
-    padding: 0 0 80px 0;
+    padding: 105px 0 80px 0;
 }
 
 .bg-blog h2 {
@@ -599,6 +613,8 @@ footer ul li i.icon-localizacao {
     text-align: center;
     padding: 96px 0;
     margin: 0;
+    position: relative;
+    z-index: 2;
 }
 
 .bg-blog p {
@@ -666,6 +682,11 @@ footer ul li i.icon-localizacao {
     /* margin: 0 auto; */
     /* display: block; */
     width: 122px;
+    transition: 0.2s;
+}
+
+.box-blog-texto a:hover {
+    background: #67adf5;
 }
 
 .bg-blog.interna .box-blog-texto {
@@ -689,6 +710,10 @@ footer ul li i.icon-localizacao {
     position: absolute;
     right: 48px;
     margin-top: 32px;
+}
+
+.seta-top:hover {
+    opacity: 0.9;
 }
 
 
@@ -719,5 +744,90 @@ footer ul li i.icon-localizacao {
 }
 
 .navbar.small .nav li {
+    padding: 0;
+}
+
+.rede-social-topo a {
+    width: 27px;
+    padding: 0px !important;
+    margin: 39px 4px !important;
+}
+
+.rede-social-topo img {
+    width: 100%;
+}
+
+.rede-social-topo a i {
+    width: 27px;
+    height: 27px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.2s;
+}
+
+.icon-facebook-topo {
+    background-image: url("../img/icon-facebook.png");
+}
+
+.icon-instagram-topo {
+    background-image: url("../img/icon-instagram.png");
+}
+
+.icon-facebook-topo:hover {
+    background-image: url("../img/icon-facebook-hover.png");
+}
+
+.icon-instagram-topo:hover {
+    background-image: url("../img/icon-instagram-hover.png");
+}
+
+
+/**/
+
+.rede-social-rodape a {
+    width: 27px !important;
+    height: 27px;
+    padding: 0px !important;
+    margin: 0 4px !important;
+    display: block;
+}
+
+.rede-social-rodape img {
+    width: 100%;
+}
+
+.rede-social-rodape a i {
+    width: 27px;
+    height: 27px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.2s;
+}
+
+.icon-facebook-rodape {
+    background-image: url("../img/icon-facebook-hover.png");
+}
+
+.icon-instagram-rodape {
+    background-image: url("../img/icon-instagram-hover.png");
+}
+
+.icon-facebook-rodape:hover {
+    background-image: url("../img/icon-facebook.png");
+}
+
+.icon-instagram-rodape:hover {
+    background-image: url("../img/icon-instagram.png");
+}
+
+.rede-social-rodape {
+    float: left;
+    margin: -26px -45px 0 52px;
+    width: 27px;
+    height: 27px;
     padding: 0;
 }
