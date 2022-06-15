@@ -30,6 +30,10 @@
         font-size: 20px;
         padding: 64px 0 0 66px;
     }
+    .cotacao-titulo h2 {
+        font-size: 20px;
+        padding: 64px 0 0 66px;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
@@ -280,6 +284,22 @@
         font-size: 24px;
         padding: 60px 0px;
         text-align: center;
+    }
+    .cotacao-titulo h2 {
+        font-size: 24px;
+        padding: 60px 0px 1px 0px;
+        text-align: center;
+    }
+    .cotacao-titulo p {
+        text-align: center;
+    }
+    .cotacao-endereco {
+        border-radius: 15px;
+        text-align: center;
+    }
+    .cotacao-titulo {
+        padding: 0;
+        border-radius: 15px;
     }
     .contato-titulo,
     .contato-telefone,

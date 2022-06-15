@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 .sem-espaco {
@@ -427,8 +428,15 @@ footer ul li i.icon-localizacao {
     font-weight: 400;
 }
 
-.contato-form .input-group {
+
+/* .contato-form .input-group {
     width: 100%;
+} */
+
+.input-group[class*=col-] {
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 
@@ -439,12 +447,14 @@ footer ul li i.icon-localizacao {
     font-size: 13.5px;
     border: 1px solid #e8e8e8;
     border-radius: 3px;
-    padding: 7px 0 8px 17px;
+    padding: 7px 14px;
     margin-bottom: 15px;
     transition: all .2s ease-out;
+    color: #a6a6a6 !important
 }
 
-#form-container input {
+#form-container input,
+#form-container select {
     height: 39px;
     margin-bottom: 17px;
     padding: 0 35px;
@@ -455,7 +465,8 @@ footer ul li i.icon-localizacao {
 }
 
 #form-container .assunto-form textarea:focus,
-#form-container input[type=text]:focus {
+#form-container input:focus,
+#form-container select:focus {
     background: #e7e7e7;
     box-shadow: 0 0;
     border: 0;
@@ -490,7 +501,8 @@ footer ul li i.icon-localizacao {
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
-    cursor: pointer
+    cursor: pointer;
+    margin-left: 14px;
 }
 
 #form-container .btn-form-enviar:hover {
@@ -511,6 +523,25 @@ footer ul li i.icon-localizacao {
     font-size: 30px;
     color: #FFFFFF;
     padding: 56px 0 0 66px;
+}
+
+.cotacao-titulo {
+    background: #007DFF;
+    border-radius: 15px 0 0 15px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.cotacao-titulo h2 {
+    font-size: 25px;
+    color: #FFFFFF;
+    padding: 56px 35px 0 35px;
+}
+
+.cotacao-titulo p {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 18px 35px 49px 35px;
 }
 
 

@@ -66,33 +66,72 @@
             <div class="row sem-espaco">
 
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 sem-espaco">
-                    <div class="contato-titulo" data-aos="fade-down" data-aos-duration="500">
-                        <h2>Entre em <b>contato</b></h2>
+                    <div class="cotacao-titulo" data-aos="fade-down" data-aos-duration="500">
+                        <h2>Formulário de <b>cotação</b></h2>
+                        <p>Preencha os campos abaixo, entraremos em contato em breve.</p>
                     </div>
-
-                    <div class="contato-telefone" data-aos="fade-down" data-aos-duration="800">
-                        <h2>Contato:</h2>
-                        <p>(11) 5200-1395 | (11) 98860-5462</p>
-                        <p><a href="mailto:Vendas@hbseg.com.br">Vendas@hbseg.com.br</a></p>
-                    </div>
-
-                    <div class="contato-endereco" data-aos="fade-down" data-aos-duration="1000">
-                        <h2>Endereço:</h2>
-                        <p>Rua Claudio Soares, nº72 conj.</p>
-                        <p>1406, Pinheiros - SP</p>
-                    </div>
-
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 contato-form sem-espaco" data-aos="zoom-in">
-                    <p>Preencha os campos abaixo, entraremos em contato em breve.</p>
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 contato-form sem-espaco" data-aos="zoom-in">
                     <form id="form-container">
-                        <div class="input-group col-md-12"><input type="text" class="form-control" data-mask="" placeholder="Qual o seu nome?" id="nome"></div>
-                        <div class="input-group col-md-12"><input type="text" class="form-control" data-mask="" placeholder="Qual o seu email?" id="email"></div>
-                        <div class="input-group col-md-12"><input type="text" class="form-control" data-mask="" placeholder="Qual o seu telefone?" id="telefone"></div>
-                        <div class="input-group col-md-12 assunto-form"><textarea class="form-control" data-mask="" placeholder="Escreva a sua mensagem" id="mensagem"></textarea></div>
-                        <div class="erro"></div>
-                        <button type="button" class="btn-form-enviar" id="enviar">Enviar mensagem</button>
+                        <div class="row sem-espaco">
+
+                            <div class="input-group col-xs-12 col-md-12">
+                                <input type="text" class="form-control" data-mask="" placeholder="Nome completo" id="nome">
+                            </div>
+
+                            <div class="input-group col-xs-12 col-md-12">
+                                <input type="email" class="form-control" data-mask="" placeholder="Email" id="email">
+                            </div>
+
+                            <div class="input-group col-xs-12  col-md-6">
+                                <input type="tel" class="form-control" data-mask="" placeholder="Telefone" id="telefone">
+                            </div>
+
+                            <div class="input-group col-xs-12  col-md-6">
+                                <input type="tel" class="form-control" data-mask="" placeholder="Celular" id="celular">
+                            </div>
+
+                            <div class="input-group col-xs-12  col-md-6">
+                                <input type="number" class="form-control" data-mask="" placeholder="CEP da empresa" id="cep-empresa">
+                            </div>
+
+                            <div class="input-group  col-xs-12 col-md-6">
+                                <input type="text" class="form-control" data-mask="" placeholder="Nome da empresa" id="nome-empresa">
+                            </div>
+
+                            <div class="input-group col-xs-12 col-md-6">
+                                <input type="number" class="form-control" data-mask="" placeholder="CNPJ" id="cnpj">
+                            </div>
+
+                            <div class="input-group col-xs-12 col-md-6">
+                                <input type="text" class="form-control" data-mask="" placeholder="Ramo de atividade" id="ramo-atividade">
+                            </div>
+
+                            <div class="input-group col-xs-12 col-md-6">
+                                <select class="form-control" name="tipo-seguro">
+                                    <option value="" hidden="">Tipo do seguro</option>
+                                    <option value="auto">Seguro Auto</option>
+                                    <option value="frota">Seguro Frota</option>
+                                    <option value="bike">Seguro Bike</option>
+                                    <option value="carta">Seguro Carta Verde</option>
+                                    <option value="viagem">Seguro Viagem</option>
+                                    <option value="vida">Seguro Vida</option>
+                                    <option value="saude">Seguro Saúde</option>
+                                    <option value="odonto">Seguro Odonto</option>
+                                </select>
+                            </div>
+
+                            <div class="input-group col-xs-12 col-md-6">
+                                <select class="form-control" name="novo_renovacao">
+                                    <option value="" hidden="">Novo ou Renovação</option>
+                                    <option value="novo">Novo</option>
+                                    <option value="renovacao">Renovação</option>
+                                </select>
+                            </div>
+
+                            <button type="button" class="btn-form-enviar" id="enviar">Enviar</button>
+                        </div>
                     </form>
                 </div>
 
